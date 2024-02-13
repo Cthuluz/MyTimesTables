@@ -51,9 +51,7 @@ struct ContentView: View {
                     }
                     .padding([.leading, .trailing], 50)
                     
-                    NavigationLink {
-                        GamePlayView()
-                    } label: {
+                    NavigationLink(destination: GamePlayView(upTo: $upTo, numberOfQuestions: $numberOfQuestions)) {
                         Text("Start")
                     }
                     .padding([.top, .bottom], 50)

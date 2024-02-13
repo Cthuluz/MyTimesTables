@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct GamePlayView: View {
+    @Binding var upTo: Int
+    @Binding var numberOfQuestions: Int
+
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    GamePlayView()
+    GamePlayView(upTo: .constant(2), numberOfQuestions: .constant(1))
 }
