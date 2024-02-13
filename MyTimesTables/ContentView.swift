@@ -36,6 +36,13 @@ struct ContentView: View {
                     .pickerStyle(.segmented)
                 }
                 .padding([.leading, .trailing], 50)
+                
+                Button("Start") {
+                    
+                }
+                .padding([.top, .bottom], 50)
+                .frame(alignment: .leading)
+                .buttonStyle(.bordered)
             }
             .navigationTitle("MyTimesTables")
         }
