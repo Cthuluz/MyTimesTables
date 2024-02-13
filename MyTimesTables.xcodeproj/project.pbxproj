@@ -11,6 +11,7 @@
 		084833A62B7BD1D8003A1424 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084833A52B7BD1D8003A1424 /* ContentView.swift */; };
 		084833A82B7BD1D9003A1424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084833A72B7BD1D9003A1424 /* Assets.xcassets */; };
 		084833AB2B7BD1D9003A1424 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084833AA2B7BD1D9003A1424 /* Preview Assets.xcassets */; };
+		084833B22B7C156F003A1424 /* GamePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084833B12B7C156F003A1424 /* GamePlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		084833A52B7BD1D8003A1424 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		084833A72B7BD1D9003A1424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		084833AA2B7BD1D9003A1424 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		084833B12B7C156F003A1424 /* GamePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				084833A32B7BD1D8003A1424 /* MyTimesTablesApp.swift */,
 				084833A52B7BD1D8003A1424 /* ContentView.swift */,
+				084833B12B7C156F003A1424 /* GamePlayView.swift */,
 				084833A72B7BD1D9003A1424 /* Assets.xcassets */,
 				084833A92B7BD1D9003A1424 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				084833A62B7BD1D8003A1424 /* ContentView.swift in Sources */,
+				084833B22B7C156F003A1424 /* GamePlayView.swift in Sources */,
 				084833A42B7BD1D8003A1424 /* MyTimesTablesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

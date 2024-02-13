@@ -51,8 +51,10 @@ struct ContentView: View {
                     }
                     .padding([.leading, .trailing], 50)
                     
-                    Button("Start") {
-                        
+                    NavigationLink {
+                        GamePlayView()
+                    } label: {
+                        Text("Start")
                     }
                     .padding([.top, .bottom], 50)
                     .frame(alignment: .leading)
