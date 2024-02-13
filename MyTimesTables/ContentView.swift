@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var upTo = 2
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                HStack {
+                    Stepper("Select maximum times table:", value: $upTo, in: 2...12)
+                        .padding(.leading, 50)
+                        .padding(.trailing, 20)
+                    Text("\(upTo)")
+                        .padding(.trailing, 50)
+                }
+            }
+            .navigationTitle("MyTimesTables")
         }
-        .padding()
     }
 }
 
